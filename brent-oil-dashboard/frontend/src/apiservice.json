@@ -1,0 +1,23 @@
+import axios from 'axios';
+
+const API_BASE_URL = 'http://localhost:5000/api';
+
+export const fetchHistoricalData = async () => {
+  const response = await axios.get(`${API_BASE_URL}/historical_data`);
+  return response.data;
+};
+
+export const fetchModelResults = async () => {
+  const response = await axios.get(`${API_BASE_URL}/model_results`);
+  return response.data;
+};
+
+export const fetchMetrics = async () => {
+  const response = await axios.get(`${API_BASE_URL}/metrics`);
+  return response.data;
+};
+
+export const fetchEvents = async () => {
+  const response = await axios.get(`${API_BASE_URL}/events`);
+  return response.data;
+};

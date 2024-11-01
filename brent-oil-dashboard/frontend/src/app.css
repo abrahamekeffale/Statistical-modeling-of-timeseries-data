@@ -1,0 +1,12 @@
+.dashboard {
+    text-align: center;
+  }
+  
+  .metrics, .chart, .events {
+    margin: 20px;
+  }
+  
+  .chart {
+    display: inline-block;
+  }
+  

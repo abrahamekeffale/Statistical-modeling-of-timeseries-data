@@ -6,7 +6,17 @@ This project is designed to analyze and visualize how various events affect Bren
 
 ## Project Structure
 
-brent-oil-analysis-dashboard/ ├── backend/ # Flask backend for API │ ├── app.py # Main Flask app │ ├── data/ # Data folder for analysis results │ ├── models/ # Folder to store trained models │ └── requirements.txt # Backend dependencies └── frontend/ # React frontend for dashboard ├── src/ │ ├── components/ # React components │ ├── App.js # Main React component │ └── index.js # Entry point ├── public/ └── package.json # Frontend dependencies
+brent-oil-analysis-dashboard/ 
+├── backend/ # Flask backend for API │ 
+  ├── app.py # Main Flask app │
+  ├── data/ # Data folder for analysis results │ 
+  ├── models/ # Folder to store trained models 
+  │ └── requirements.txt # Backend dependencies 
+└── frontend/ # React frontend for dashboard 
+  ├── src/ │ └── package.json # Frontend dependencies
+  ├── components/ # React components │
+  ├── App.js # Main React component │ 
+  └── index.js # Entry point ├── public/ 
 
 markdown
 Copy code
